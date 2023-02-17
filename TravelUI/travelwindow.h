@@ -8,6 +8,8 @@
 #include <QMessageBox>
 #include <QtSql>
 #include <QLabel>
+#include <QSqlRelationalTableModel>
+#include <QSortFilterProxyModel>
 namespace Ui {
 class travelwindow;
 }
@@ -35,10 +37,17 @@ public:
             return false;
         }
     }
-
+    QSortFilterProxyModel *proxyModel;
 public:
     explicit travelwindow(QWidget *parent = nullptr);
     ~travelwindow();
+
+private slots:
+    void on_pushButton_clicked();
+
+
+
+    void on_search_box_textChanged(const QString &arg1);
 
 private:
     Ui::travelwindow *ui;

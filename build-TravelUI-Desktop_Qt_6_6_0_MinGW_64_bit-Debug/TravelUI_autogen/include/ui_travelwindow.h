@@ -45,7 +45,7 @@ public:
         centralwidget->setObjectName("centralwidget");
         label = new QLabel(centralwidget);
         label->setObjectName("label");
-        label->setGeometry(QRect(30, 610, 151, 51));
+        label->setGeometry(QRect(30, 610, 191, 51));
         tableView = new QTableView(centralwidget);
         tableView->setObjectName("tableView");
         tableView->setGeometry(QRect(25, 60, 791, 241));
@@ -57,7 +57,7 @@ public:
         search_box->setGeometry(QRect(120, 20, 481, 31));
         label_2 = new QLabel(centralwidget);
         label_2->setObjectName("label_2");
-        label_2->setGeometry(QRect(40, 20, 71, 31));
+        label_2->setGeometry(QRect(20, 20, 91, 31));
         label_3 = new QLabel(centralwidget);
         label_3->setObjectName("label_3");
         label_3->setGeometry(QRect(610, 25, 61, 21));
@@ -79,7 +79,7 @@ public:
         travelwindow->setWindowTitle(QCoreApplication::translate("travelwindow", "MainWindow", nullptr));
         label->setText(QCoreApplication::translate("travelwindow", "STATUS", nullptr));
         pushButton->setText(QCoreApplication::translate("travelwindow", "LOAD DATA", nullptr));
-        label_2->setText(QCoreApplication::translate("travelwindow", "       SEARCH", nullptr));
+        label_2->setText(QCoreApplication::translate("travelwindow", "     SEARCH", nullptr));
         label_3->setText(QCoreApplication::translate("travelwindow", "FILTER", nullptr));
     } // retranslateUi
 

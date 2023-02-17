@@ -7,6 +7,7 @@ E:/TravelUI/build-TravelUI-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/TravelUI_autogen/
   C:/Qt/6.6.0/mingw_64/include/QtCore/QMap \
   C:/Qt/6.6.0/mingw_64/include/QtCore/QMutex \
   C:/Qt/6.6.0/mingw_64/include/QtCore/QObject \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/QSortFilterProxyModel \
   C:/Qt/6.6.0/mingw_64/include/QtCore/QString \
   C:/Qt/6.6.0/mingw_64/include/QtCore/QStringList \
   C:/Qt/6.6.0/mingw_64/include/QtCore/QVariant \
@@ -282,6 +283,7 @@ E:/TravelUI/build-TravelUI-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/TravelUI_autogen/
   C:/Qt/6.6.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.6.0/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.6.0/mingw_64/include/QtSql/QSqlDatabase \
+  C:/Qt/6.6.0/mingw_64/include/QtSql/QSqlRelationalTableModel \
   C:/Qt/6.6.0/mingw_64/include/QtSql/QtSql \
   C:/Qt/6.6.0/mingw_64/include/QtSql/QtSqlDepends \
   C:/Qt/6.6.0/mingw_64/include/QtSql/qsqldatabase.h \
